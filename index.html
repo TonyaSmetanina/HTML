@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://rsms.me/inter/inter.css' type="text/css" rel = "stylesheet">
+    <title>HTML</title>
+</head>
+<body style="font-family:'Inter', arial, sans-serif; max-width: 700px; display: block; margin: 0 auto;">
+  <div>  
+    <h1> HTML
+    </h1>
+    <p>
+        HTML (HyperText Markup Language - "мова гіпертекстової розмітки") - найбільш базовий будівельний блок <a href="https://uk.wikipedia.org/wiki/%D0%86%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82"> Інтернету </a>. 
+        Він визначає зміст та структуру <a href="https://uk.wikipedia.org/wiki/Web_3.0"> веб-контенту</a>. Під гіпертекстом ("hypertext") розуміються посилання, які з'єднують веб-сторінки один з одним або в межах одного
+        <a href="https://uk.wikipedia.org/wiki/%D0%92%D0%B5%D0%B1%D1%81%D0%B0%D0%B9%D1%82"> веб-сайту</a> або між веб-сайтами. Посилання є фундаментальним аспектом Інтернету.
+    </p>    
+    <p> Інші технології, крім HTML, зазвичай використовуються для опису зовнішнього вигляду/уявлення (<a href="https://uk.wikipedia.org/wiki/CSS">CSS</a>) або функціональності/поведінки (<a href="https://uk.wikipedia.org/wiki/JavaScript">JavaScript</a>) веб-сторінки. 
+    </p>    
+    <p><bold>HTML-документ</bold> - це звичайний текстовий документ, може бути створений як у звичайному текстовому редакторі (<em>Блокнот</em>) , так і в спеціалізованому з підсвічуванням коду (<em>Notepad++, Visual Studio Code</em> і т.п.) . HTML-документ має розширення .html.
+    </p>
+    <p>    
+        Завантажуючи контент в Інтернет і пов'язуючи його зі сторінками, створеними іншими людьми, ви стаєте активним учасником Всесвітньої мережі.  HTML використовує розмітку ("<a href="https://uk.wikipedia.org/wiki/Vector_Markup_Language">markup</a>") для відображення тексту, зображень та іншого контенту у веб-браузері. 
+    </p>
+    <p>    
+        <a href="https://uk.wikipedia.org/wiki/HTML">HTML-розмітка</a> включає в себе спеціальні "<a href="https://uk.wikipedia.org/wiki/%D0%95%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%B8_HTML">елементи</a>", такі як <a href="https://uk.wikipedia.org/wiki/%D0%A2%D0%B5%D0%B3_(%D0%BC%D0%B5%D1%82%D0%B0%D0%B4%D0%B0%D0%BD%D1%96)">теги</a> та <a href="https://uk.wikipedia.org/wiki/%D0%90%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%B8_HTML"> атрибути</a>.
+    </p>
+    <h3>
+        Структура веб-сторінки
+    </h3>
+    <p> <strong>
+        HTML-документ складається з двох розділів – заголовка – вміст елемента
+    </strong> <em> &lt;head&gt;</em> <strong>(технічна частина, видима лише розробнику) та змістовної частини – вміст 
+    </strong><em> &lt;body&gt; </em><strong>(відображається на екрані користувача).
+        </strong>
+    </p>
+    <br />
+    <h3> <em>
+        Взаємозв’язки між вкладеними елементами поділяються на батьківські, дочірні та сестринські:
+    </em>
+    </h3>
+    <p>
+       <strong> Предок </strong>- <em>елемент, який містить інші елементи. Предком для всіх елементів є<em> &lt;html&gt;</em>. 
+       У той же час елемент <em> &lt;body&gt;</em> є предком для всіх елементів, що містяться в ньому: 
+       <em> &lt;header&gt;</em> 
+       <em> &lt;nav&gt;</em>
+       <em> &lt;h1&gt;</em> і т.д.</em>
+    </p>
+    <p> 
+        <strong> Нащадок </strong>- <em>елемент, розташований усередині одного або більше типів елементів. Наприклад, 
+        <em> &lt;body&gt; </em> є нащадком <em> &lt;html&gt; </em>, а елемент <em> &lt;header&gt; </em> є нащадком одночасно <em> &lt;body&gt; </em> і <em> &lt;html&gt; </em>.</em>
+    </p>
+    <p>    
+        <strong>Батьківський елемент</strong> -<em>елемент, пов'язаний з іншими елементами нижчого рівня і вище за них.</em>
+    </p>
+    <p>   
+        <strong>Дочірній елемент </strong> — <em>елемент, що безпосередньо підпорядкований іншому елементу вищого рівня.</em>
+    </p>
+    <p>   
+        <strong>Сестринський елемент</strong> — <em>елемент, що має спільний батьківський елемент із розглянутим, так звані елементи одного рівня, наприклад 
+        &lt;h1&gt;,
+        &lt;div&gt; і 
+        &lt;ul&gt; або 
+        &lt;meta&gt;,
+        &lt;link&gt; і 
+        &lt;title&gt;.</em> 
+    </p>
+    <p><strong> <em>
+        Примітка</em>
+    </strong> <br />
+        При виконанні цього Д/З використовуйте теги 
+        &lt;p&gt;,
+        &lt;br&gt;, <br />
+        &lt;span&gt;,
+        &lt;h1&gt;,
+        &lt;h2&gt;...<br />
+        Всі слова які виглядають як<a href="https://uk.wikipedia.org/wiki/%D0%86%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82"> Інтернету</a> мають бути посиланнями,<br />
+         тобто вписані в тег &lt;a&gt; і прописано посилання на статтю у <br />
+         вікіпедії з відповідною інформацією.
+    </p>
+    <p style = "margin: 0 0 0 243px;">
+        Аби скопіювати макет до себе, щоб мати змогу редагувати виконайте наступні дії:
+        <ul style = "margin: 0 0 0 243px; 
+        background: -webkit-linear-gradient(#000000, #1500FF);
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;">
+            <li> натисніть на стрілку біля назви роботи зверху</li>
+            <li>оберіть пункт Duplicate</li>
+            <li>після провантаження відкрийте у модалці знизу екрану,<br /> 
+                натисканням Open, копію макету.</li>
+        </ul>
+        <span style="margin: 0 0 0 456px; color: #1500FF;">УСПІХУ У ВИКОНАННІ!</span>
+    </p>
+    <footer>
+        Codede by <a href="https://github.com/TonyaSmetanina"> Antonina Smetanina </a>
+    </footer>
+</div>
+</body>
+</html>
